@@ -1,0 +1,38 @@
+# transform_tolerance: 0.5
+
+# Obstacle marking parameters
+obstacle_range: 30.0
+raytrace_range: 30.0
+
+# Map management parameters
+map_type: costmap
+
+# Robot parameters
+# footprint: [[0.2, 0.4], [0.2, -0.4], [-0.9, -0.4], [-0.9, 0.4]]
+robot_radius: 0.35
+
+# Cost parameters
+static_map_cost_scale: 50.0
+lethal_cost_threshold: 100
+
+# Layer management
+plugins:
+  - {name: static_layer,            type: "costmap_2d::StaticLayer"}
+  - {name: obstacle_layer,          type: "costmap_2d::ObstacleLayer"}
+  - {name: inflation_layer,         type: "costmap_2d::InflationLayer"}
+
+static_layer:
+  map_topic: /local_map
+  subscribe_to_updates: true
+
+obstacle_layer:
+  observation_sources: laser_scan_sensor
+  laser_scan_sensor: {
+    sensor_frame: lidar,
+    data_type: LaserScan,
+    topic: /scan,
+    marking: true,
+    clearing: true,
+    max_obstacle_height: 2.0,
+    min_obstacle_height: 0.0
+  }
