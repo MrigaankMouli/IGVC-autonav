@@ -1,0 +1,2 @@
+IGVC_sim:navigation:robot_description:vision:zed-ros-wrapper/zed-ros-interfaces:zed-ros-wrapper/zed_nodelets:zed-ros-wrapper/zed_ros:zed-ros-wrapper/zed_wrapper
+-DCATKIN_DEVEL_PREFIX=/home/asmit/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/asmit/catkin_ws/install -G Unix Makefiles

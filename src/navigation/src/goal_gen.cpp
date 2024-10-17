@@ -347,10 +347,10 @@ void processGoal() {
                 }
             }
 
-            Point final_pt = {-12.3709185, -23.195704};
+            // Point final_pt = {-12.3709185, -23.195704};
             Point end_course = {-0.143247067, -23.5012827};
 
-            if(switch_two && distancePoint(current_pose.world_position, final_pt) < 4) {
+            if(switch_two && distancePoint(current_pose.world_position, end_course) < 40) {
                 paused = true;
                 publish_final_goal = true;
             }

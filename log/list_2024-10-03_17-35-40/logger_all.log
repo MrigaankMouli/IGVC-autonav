@@ -1,0 +1,162 @@
+[0.188s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/zero/Desktop/catkin_ws']
+[0.188s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/zero/Desktop/catkin_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x731fa4bf2e30>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x731fa4d4aa40>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x731fa4d4aa40>>, mixin_verb=('list',))
+[0.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.450s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/zero/Desktop/catkin_ws'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws) by extension 'ignore_ament_install'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws) by extensions ['colcon_pkg']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws) by extension 'colcon_pkg'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws) by extensions ['colcon_meta']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws) by extension 'colcon_meta'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws) by extensions ['ros']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws) by extension 'ros'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws) by extensions ['cmake', 'python']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws) by extension 'cmake'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws) by extension 'python'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws) by extensions ['python_setup_py']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws) by extension 'python_setup_py'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/build) by extension 'ignore'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/build) by extension 'ignore_ament_install'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/build) by extensions ['colcon_pkg']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/build) by extension 'colcon_pkg'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/build) by extensions ['colcon_meta']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/build) by extension 'colcon_meta'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/build) by extensions ['ros']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/build) by extension 'ros'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/build) ignored
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/devel) by extensions ['ignore', 'ignore_ament_install']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/devel) by extension 'ignore'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/devel) by extension 'ignore_ament_install'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/devel) ignored
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/log) by extension 'ignore'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/log) ignored
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src) by extension 'ignore'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src) by extension 'ignore_ament_install'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src) by extensions ['colcon_pkg']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src) by extension 'colcon_pkg'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src) by extensions ['colcon_meta']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src) by extension 'colcon_meta'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src) by extensions ['ros']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src) by extension 'ros'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src) by extensions ['cmake', 'python']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src) by extension 'cmake'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src) by extension 'python'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src) by extensions ['python_setup_py']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src) by extension 'python_setup_py'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/build) by extension 'ignore'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/build) by extension 'ignore_ament_install'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/build) by extensions ['colcon_pkg']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/build) by extension 'colcon_pkg'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/build) by extensions ['colcon_meta']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/build) by extension 'colcon_meta'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/build) by extensions ['ros']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/build) by extension 'ros'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/build) ignored
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/navigation) by extension 'ignore'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/navigation) by extension 'ignore_ament_install'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/navigation) by extensions ['colcon_pkg']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/navigation) by extension 'colcon_pkg'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/navigation) by extensions ['colcon_meta']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/navigation) by extension 'colcon_meta'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/navigation) by extensions ['ros']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/navigation) by extension 'ros'
+[0.483s] DEBUG:colcon.colcon_core.package_identification:Package '/home/zero/Desktop/catkin_ws/src/navigation' with type 'ros.catkin' and name 'navigation'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/robot_description) by extension 'ignore'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/robot_description) by extension 'ignore_ament_install'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/robot_description) by extensions ['colcon_pkg']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/robot_description) by extension 'colcon_pkg'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/robot_description) by extensions ['colcon_meta']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/robot_description) by extension 'colcon_meta'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/robot_description) by extensions ['ros']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/robot_description) by extension 'ros'
+[0.485s] DEBUG:colcon.colcon_core.package_identification:Package '/home/zero/Desktop/catkin_ws/src/robot_description' with type 'ros.catkin' and name 'robot_description'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/vision) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/vision) by extension 'ignore'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/vision) by extension 'ignore_ament_install'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/vision) by extensions ['colcon_pkg']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/vision) by extension 'colcon_pkg'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/vision) by extensions ['colcon_meta']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/vision) by extension 'colcon_meta'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/vision) by extensions ['ros']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/vision) by extension 'ros'
+[0.487s] DEBUG:colcon.colcon_core.package_identification:Package '/home/zero/Desktop/catkin_ws/src/vision' with type 'ros.catkin' and name 'vision'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper) by extensions ['ignore', 'ignore_ament_install']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper) by extension 'ignore'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper) by extension 'ignore_ament_install'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper) by extensions ['colcon_pkg']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper) by extension 'colcon_pkg'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper) by extensions ['colcon_meta']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper) by extension 'colcon_meta'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper) by extensions ['ros']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper) by extension 'ros'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper) by extensions ['cmake', 'python']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper) by extension 'cmake'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper) by extension 'python'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper) by extensions ['python_setup_py']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper) by extension 'python_setup_py'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/images) by extensions ['ignore', 'ignore_ament_install']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/images) by extension 'ignore'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/images) by extension 'ignore_ament_install'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/images) by extensions ['colcon_pkg']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/images) by extension 'colcon_pkg'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/images) by extensions ['colcon_meta']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/images) by extension 'colcon_meta'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/images) by extensions ['ros']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/images) by extension 'ros'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/images) by extensions ['cmake', 'python']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/images) by extension 'cmake'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/images) by extension 'python'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/images) by extensions ['python_setup_py']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/images) by extension 'python_setup_py'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed-ros-interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed-ros-interfaces) by extension 'ignore'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed-ros-interfaces) by extension 'ignore_ament_install'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed-ros-interfaces) by extensions ['colcon_pkg']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed-ros-interfaces) by extension 'colcon_pkg'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed-ros-interfaces) by extensions ['colcon_meta']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed-ros-interfaces) by extension 'colcon_meta'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed-ros-interfaces) by extensions ['ros']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed-ros-interfaces) by extension 'ros'
+[0.493s] DEBUG:colcon.colcon_core.package_identification:Package '/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed-ros-interfaces' with type 'ros.catkin' and name 'zed_interfaces'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed_nodelets) by extensions ['ignore', 'ignore_ament_install']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed_nodelets) by extension 'ignore'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed_nodelets) by extension 'ignore_ament_install'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed_nodelets) by extensions ['colcon_pkg']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed_nodelets) by extension 'colcon_pkg'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed_nodelets) by extensions ['colcon_meta']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed_nodelets) by extension 'colcon_meta'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed_nodelets) by extensions ['ros']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed_nodelets) by extension 'ros'
+[0.497s] DEBUG:colcon.colcon_core.package_identification:Package '/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed_nodelets' with type 'ros.catkin' and name 'zed_nodelets'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed_ros) by extension 'ignore'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed_ros) by extension 'ignore_ament_install'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed_ros) by extensions ['colcon_pkg']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed_ros) by extension 'colcon_pkg'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed_ros) by extensions ['colcon_meta']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed_ros) by extension 'colcon_meta'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed_ros) by extensions ['ros']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed_ros) by extension 'ros'
+[0.498s] DEBUG:colcon.colcon_core.package_identification:Package '/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed_ros' with type 'ros.catkin' and name 'zed_ros'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed_wrapper) by extensions ['ignore', 'ignore_ament_install']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed_wrapper) by extension 'ignore'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed_wrapper) by extension 'ignore_ament_install'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed_wrapper) by extensions ['colcon_pkg']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed_wrapper) by extension 'colcon_pkg'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed_wrapper) by extensions ['colcon_meta']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed_wrapper) by extension 'colcon_meta'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed_wrapper) by extensions ['ros']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed_wrapper) by extension 'ros'
+[0.500s] DEBUG:colcon.colcon_core.package_identification:Package '/home/zero/Desktop/catkin_ws/src/zed-ros-wrapper/zed_wrapper' with type 'ros.catkin' and name 'zed_wrapper'
+[0.500s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

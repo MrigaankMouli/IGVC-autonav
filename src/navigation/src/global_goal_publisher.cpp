@@ -82,9 +82,9 @@ int main(int argc, char** argv)
 
     // Define the 5 goals (latitude, longitude, altitude tuples)
     goals = {
-        {49.899889574744286, 8.899697616835839, 0.19473543564318233},
-        {49.89993349214121, 8.899853275524414, 0.19471782080005984}, // nomans land exit
-        {49.90006261801672, 8.899855871989393, 0.19437419270357567}, // ramp entry
+        {49.899889574744286, 8.899697616835839, 0.19473543564318233}, // no mans land exit
+        {49.89993349214121, 8.899853275524414, 0.19471782080005984}, // ramp entry
+        {49.90006261801672, 8.899855871989393, 0.19437419270357567}, // ramp exit
         {49.9001499523225, 8.899686049564702, 0.19474662264463902} // no mans land entry
     };
 
@@ -116,14 +116,14 @@ int main(int argc, char** argv)
                 if (!timer_started) {
                     start_time = ros::Time::now();
                     timer_started = true;
-                    ROS_INFO("Timer started!");
+                    // ROS_INFO("Timer started!");
                 }
                 
                 current_goal_index++;
                 if (current_goal_index >= goals.size())
                 {
                     ros::Duration elapsed_time = ros::Time::now() - start_time;
-                    ROS_INFO("All goals reached. Total time: %.2f seconds", elapsed_time.toSec());
+                    // ROS_INFO("All goals reached. Total time: %.2f seconds", elapsed_time.toSec());
                     break;
                 }
             }

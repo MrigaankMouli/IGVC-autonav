@@ -226,3 +226,8 @@ add_executable(goal_gen src/goal_gen.cpp)
 target_link_libraries(goal_gen
   ${catkin_LIBRARIES}
 )
+
+add_executable(goal_publisher src/goals_loop.cpp)
+target_link_libraries(goal_publisher
+  ${catkin_LIBRARIES}
+)
